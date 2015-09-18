@@ -3,14 +3,13 @@ package com.xiaohui.mywork01;
 import android.app.Activity;
 import android.os.Bundle;
 
-/**
- * Created by xiaohui on 15-9-18.
- * email:a6551142@163.com
- */
-public class MyActivity extends Activity {
+public class MainActivity extends Activity {
+    /**
+     * Called when the activity is first created.
+     */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        System.out.println();
+        setContentView(R.layout.main);
     }
 }
