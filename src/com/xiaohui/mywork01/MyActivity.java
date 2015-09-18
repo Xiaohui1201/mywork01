@@ -11,6 +11,6 @@ public class MyActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        System.out.println();
+        System.out.println("hello_world");
     }
 }
