@@ -13,5 +13,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         Log.i("TAG","打印");
+
     }
 }
